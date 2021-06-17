@@ -1,0 +1,49 @@
+
+
+.service-card{
+    width: 250px;
+    max-height: var(--height);
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    margin-top: var(--img-size);
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: medium;
+
+    img{
+        position: relative;
+        width: var(--img-size);
+        height: var(--img-size);
+        transform: scale(1.5);
+        // background-color: aqua;
+        border-radius: 50%;
+        position: relative;
+        top: calc(var(--img-size)/2 * -1 );
+        z-index: 10;
+    }
+    >p{
+        position: relative;
+        margin: 0;
+        height: 2rem;
+        top: -25px;
+        font-style: italic;
+        font-size: large;
+    }
+    main{
+        background-color: rgb(196, 192, 192);
+        margin: 0;
+        width: inherit;
+        
+        >p{
+            padding: 10px 15px;
+            height: calc(var(--height) - var(--img-size));
+            overflow: hidden;
+            margin: inherit;
+        }
+    }
+
+    
+
+}

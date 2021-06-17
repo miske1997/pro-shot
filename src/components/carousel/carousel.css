@@ -1,0 +1,23 @@
+
+.carousel-container{
+    margin: 1vh 0;
+    height: 98vh;
+    width: 100vw;
+}
+
+.carousel-container img{
+    height: 94vh;
+    object-fit: contain;
+    z-index: 500;
+}
+.carousel-container div{
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.carousel-container .blur{
+    height: 99vh;
+    backdrop-filter: blur(20px);
+    width: 100%;
+}

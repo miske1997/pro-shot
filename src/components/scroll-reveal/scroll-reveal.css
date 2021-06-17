@@ -1,0 +1,38 @@
+.scroll-reveal{
+    min-width: 100vw;
+    min-width: -webkit-fill-available; 
+}
+
+.cover, .viewer, .background {
+    box-sizing: border-box;
+    position: relative;
+    /* padding-top: 50vh; */
+    text-align: center;
+    height: 100vh;
+    width: 100vw;                
+}
+.cover {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    color: black;
+    width: 100vw;
+    z-index: 1;
+    margin: 0;
+}
+.viewer-fixed {
+    z-index: -1;
+}
+.viewer-stop{
+    height: 0;
+}
+.fixed {
+    padding-top: 0;
+    /* background-color: coral; */
+    position: fixed;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.stop{
+    margin: 0 auto;
+}

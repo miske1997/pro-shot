@@ -1,0 +1,15 @@
+
+.nav-bar{
+    width: 100vw;
+    height: 4rem;
+    margin: 0;
+    background-color: #242c3b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar .btn{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    margin: 0 3rem;
+    cursor: pointer;
+}

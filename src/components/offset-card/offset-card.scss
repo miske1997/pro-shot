@@ -1,0 +1,48 @@
+
+.offset-card{
+    height: var(--height);
+    // background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: calc(var(--card-width) * 1.5);
+    text-align: center;
+    margin: 30px 0;
+
+    .spacer{
+        flex-grow: 1;
+        // background-color: rgb(51, 105, 153);
+    }
+
+    .card{
+        padding: 0;
+        margin: 20px 0;
+        div{
+            height: calc(var(--height) / 3.5);
+            width: var(--card-width);
+            overflow: hidden;
+            img{
+                position: relative;
+                object-fit: scale-down;
+                // background-color: rgb(103, 218, 80);
+                margin: 0 auto;
+                overflow: hidden;
+            }
+        }
+
+        p{
+            padding-top: 1rem;
+            position: relative;
+            top: -30px;
+            left: calc(var(--card-width)/5);
+            height: calc(var(--height) / 3.5);
+            // background-color: rgb(68, 62, 64);
+            color: black;
+            background-color: rgb(196, 192, 192);
+            margin: 0 auto;
+            width: var(--card-width);
+            overflow: hidden;
+            font-style: italic;
+            font-size: larger;
+        }
+    }
+}
